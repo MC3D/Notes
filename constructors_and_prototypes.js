@@ -75,7 +75,7 @@
     realName: 'Krypto'
   });
 
-  krypto.greeting(); // returns undefined
+  krypto.greeting(); // returns undefined because options object that was passed it was not extended to 'this'
 
   // a constructor is a function that is used to create objects
   // A constructor is always capitalized (convention)
