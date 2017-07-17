@@ -124,9 +124,10 @@
   // you have access to constructor property on each instance
   console.log('theTree.constructor is ' + theTree.constructor);
 
-  theTree.constructor = function Tree(name) {
-    this.name = name;
-  }
+  // theTree.constructor is equal to:
+  //   function Tree(name) {
+  //     this.name = name;
+  //   }
 
   // updating the prototype chain
 
